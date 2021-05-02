@@ -3,11 +3,11 @@ from random import randint
 print("==========================")
 print ("WILLKOMMEN.")
 print ("RATEN SIE DIE ANZAHL DER M & Ms")
-print ("Sie haben 7 Chancen, die richtige Nummer zu finden. Zahlen von 1 bis 100. Viel Glück!")
+print ("Sie haben 7 Chancen, die richtige Nummer zu finden. Zahlen von 1 bis 130. Viel Glück!")
 print ("===========================")
 
 def game():
-    answer = randint(1, 100)
+    answer = randint(1, 130)
 
     while True:
         for n in range(7):
